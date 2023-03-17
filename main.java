@@ -1,4 +1,4 @@
-public class main {
+public class Main {
     public static void testTabNote(int tab[]){
         
         try{
