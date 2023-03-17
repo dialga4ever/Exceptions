@@ -16,17 +16,10 @@ public class main {
         }catch(GradeException probleme){
             System.out.println(probleme);
         }
-        finally{
-            if(){
-                System.out.println("Toutes les notes sont correctes");
-            }
-            else{
-                System.out.println("Des notes incorrectes ont ´et´e trouv´ees");
-            }
-        }
+
 
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) throws GradeException {
         int tab[]={1,2,-2,4,5,6,7,9};
         testTabNote(tab);
     }
